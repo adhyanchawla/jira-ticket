@@ -1,0 +1,261 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+}
+
+.container {
+    height: 100vh;
+    width: 100vw;
+    /* position: relative; */
+    overflow: hidden;
+    /* display: flex; */
+}
+
+.nav {
+    height: 12%;
+    background-color: rgb(36 41 47);
+    display: flex;
+    align-items: center;
+}
+
+.ticket-area {
+    height: 88%;
+    width: 100vw;;
+    background-color: lightgray;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    min-height: 88%;
+    padding: 1.5rem;
+}
+
+.filter-jobs, .action-jobs {
+    margin-left: 6rem;
+    height: 75%;
+    width : 20%;
+    background-color: rgb(45 56 70);
+    border-radius: 2px;
+    display: flex;
+}
+
+.action-jobs {
+    width: 10%;
+}
+
+.boxes {
+    /* border: 1px solid red; */
+    height: 100%;
+    width: 25%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.boxes:hover {
+    background-color: #393939;
+}
+
+.boxes div {
+    height: 50%;
+    width: 50%;
+    /* background-color: red; */
+}
+
+.pink-color-btn {
+    background-color: hotpink;
+}
+.blue-color-btn {
+    background-color: aqua;
+}
+
+.green-color-btn {
+    background-color:chartreuse;
+}
+
+.black-color-btn {
+    background-color: black;
+}
+
+.filters {
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* border: 1px solid yellow; */
+    font-size: 3rem;
+}
+
+.filters:hover {
+    background-color: #393939;
+}
+
+.delete-state, .selected-filter {
+    background-color: #393939!important;
+}
+
+.add, .delete {
+    color: white;
+    font-size: 4rem;
+}
+
+.modal {
+    /* border: 1px solid red; */
+    position: fixed;
+    top: calc((100vh - 18rem) / 2);
+    left: 25rem;
+    /* margin: 0 auto; */
+    width: 40%;
+    height: 40%;
+    display: flex;
+    box-shadow: 0px 5px 10px 0px #aaa;
+}
+
+.write {
+    height: 100%;
+    /* border: 1px solid yellow; */
+    width: 70%;
+    padding: 2rem;
+    outline: none;
+    font-size: 1.8rem;
+    font-family: A rial, Helvetica, sans-serif;
+    background-color: white;
+}
+
+.color {
+    width: 30%;
+    height: 100%;
+    display: flex;
+    background-color: #444;
+    /* box-sizing: border-box; */
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.colors {
+    margin-bottom: 5px;
+    height: 2.5rem;
+    width: 50%;
+    background-color: red;
+    opacity: 0.7;
+    /* padding-top: 40px; */
+}
+
+.pink {
+    background-color: hotpink;
+}
+
+.blue {
+    background-color: aqua;
+}
+
+.green {
+    background-color: chartreuse;
+}
+
+.black {
+    background-color: black;
+}
+
+.colors:hover {
+    opacity: 1;
+}
+
+.ticket {
+    height: 8rem;
+    width: 15rem;
+    /* border: 1px solid; */
+    display: flex;
+    flex-direction: column;
+    /* margin-top: 2rem; */
+    /* margin-left: 2rem; */
+}
+
+.ticket-color {
+    width: 100%;
+    height: 1rem;
+    /* border: 1px solid; */
+    /* background-color: red; */
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+}
+
+.written-area {
+    height: calc(8rem - 1rem);
+    width: 100%;
+    padding: 5px;
+    background-color: white;
+}
+
+.ticket-id {
+    padding-left: 5px;
+    width: 100%;
+    height: 2rem;
+    font-size: 18px;
+    font-weight: bold;
+    font-family:Arial, Helvetica, sans-serif;
+    color: #989393;
+}
+
+.written {
+    height: 5rem;
+    width: 100%;
+    padding: 10px;
+    font-size: 15px;
+    outline: none;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #989393;
+}
+
+.active-modal {
+    border: 5px solid;
+}
+
+
+/* @media(max-width: 600px) {
+    .nav {
+        height: 6%;
+        background-color: rgb(36 41 47);
+        display: flex;
+        align-items: center;
+    }
+
+    .modal {
+        /* border: 1px solid red; 
+        position: fixed;
+        top: calc((100vh - 18rem) / 2);
+        left: 25rem;
+        /* margin: 0 auto;
+        width: 40%;
+        height: 40%;
+        display: flex;
+        box-shadow: 0px 5px 10px 0px #aaa;
+    }
+
+    .filter-jobs, .action-jobs {
+        margin-left: 6rem;
+        height: 64%;
+        width : 12%;
+        background-color: rgb(45 56 70);
+        border-radius: 2px;
+        display: flex;
+        margin-left: 1.5rem;
+    }   
+} */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
